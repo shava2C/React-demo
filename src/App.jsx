@@ -43,7 +43,7 @@ export const App = () => {
 
   return (
     <>
-      <inputTodo
+      <InputTodo
         todoText={todoText}
         onChange={onChangeTodoText}
         onClick={onClickAdd}
