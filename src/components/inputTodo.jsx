@@ -1,6 +1,7 @@
 import React from "react";
 
-export const InputTodo = () => {
+export const InputTodo = (props) => {
+  const { todoText, onChangeTodoText, onClickAdd } = onClickAdd;
   return (
     <div className="input-area">
       <input
